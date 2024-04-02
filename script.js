@@ -29,6 +29,6 @@
                     alert(`Welcome, ${resolvedName}. You can vote.`);
                 })
                 .catch((rejectedName) => {
-                    alert(`Oh sorry, ${rejectedName}. You aren't old enough.`);
+                    alert(`Oh, sorry, ${rejectedName}. You aren't old enough.`);
                 });
         });
